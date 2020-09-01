@@ -4,7 +4,7 @@ import "github.com/CrowdStrike/easyrulesgo/api"
 
 
 // ByPriority implements sort.Interface for []api.Rule based on
-// the ByPriority field.
+// the Priority field.
 type ByPriority []api.Rule
 
 func (r ByPriority) Len() int           { return len(r) }
