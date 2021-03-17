@@ -1,7 +1,7 @@
 EasyRulesGO
 =========
 A port of EasyRules to Golang
-http://www.easyrules.org/
+https://github.com/j-easy/easy-rules
 
 Please read the EasyRules link for a quick intro to the concepts and workflows.
 
@@ -23,7 +23,7 @@ import (
 	core "github.com/CrowdStrike/easyrulesgo/core"
 )
 
-// example taken from http://www.easyrules.org/tutorials/shop-tutorial.html
+// example taken from https://github.com/j-easy/easy-rules/wiki/shop
 
 type person struct {
 	name string
